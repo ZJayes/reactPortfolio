@@ -10,7 +10,7 @@ function Contact() {
           <div className="card-body">
             <form>
               <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Email</label>
+                <label htmlFor="exampleInputEmail1">Email: zacjayes@gmail.com</label>
                 <input type="email" className="form-control" id="exampleInputEmail1" ></input>
                 <small id="emailHelp" className="form-text text-muted"></small>
               </div>
@@ -19,7 +19,7 @@ function Contact() {
                 <input  className="form-control" ></input>
               </div>
               <div className="form-group">
-                <label htmlFor="exampleFormControlTextarea1">Additional Information</label>
+                <label htmlFor="exampleFormControlTextarea1">Comments</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
               </div>
               <button type="submit" className="btn btn-primary">Submit</button>

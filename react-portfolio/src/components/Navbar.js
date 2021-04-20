@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from "@fortawesome/free-solid-svg-icons"
-
-
+import { Link } from 'react-router-dom'
+ 
 
 const Navbar = () => { 
     return(
@@ -17,14 +17,14 @@ const Navbar = () => {
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
             
               <li className="nav-item">
-                <a className="nav-link" href="#">About Me</a>
+                <Link className="nav-link" to='/aboutme' >About Me</Link>
                </li>
                <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <Link className="nav-link" to='/contact' >Contact</Link>
                </li>
                <li className="nav-item">
                
-                <a className="nav-link" href="#">Portfolio</a>
+                <Link className="nav-link" to='/portfolio' >Portfolio</Link>
                </li>
         
           
